@@ -1,7 +1,7 @@
 [
   {
     "id": "bphtb",
-    "title": "Aplikasi BPHTB",
+    "title": { "id": "Aplikasi BPHTB", "en": "BPHTB System" },
     "subtitle": {
       "id": "Sistem Pajak Daerah",
       "en": "Regional Tax System"
@@ -45,7 +45,7 @@
   },
   {
     "id": "smartmap",
-    "title": "SMART MAP",
+    "title": { "id": "SIG-PBB", "en": "PBB GIS" },
     "subtitle": {
       "id": "Sistem Informasi Peta PBB",
       "en": "Property Tax Mapping System"
@@ -56,8 +56,8 @@
     },
     "year": "2020 – 2022",
     "description": {
-      "id": "SMART MAP adalah aplikasi peta interaktif berbasis web yang menampilkan data spasial dan informasi detail setiap wajib pajak PBB (Pajak Bumi dan Bangunan) yang terdaftar di BAPENDA. Sistem ini memungkinkan petugas pajak untuk melihat, memvalidasi, dan menganalisis data peta objek pajak secara visual dan akurat.",
-      "en": "SMART MAP is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA. The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
+      "id": "SIG-PBB adalah aplikasi peta interaktif berbasis web yang menampilkan data spasial dan informasi detail setiap wajib pajak PBB (Pajak Bumi dan Bangunan) yang terdaftar di BAPENDA. Sistem ini memungkinkan petugas pajak untuk melihat, memvalidasi, dan menganalisis data peta objek pajak secara visual dan akurat.",
+      "en": "SIG-PBB is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA. The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
     },
     "highlights": {
       "id": [
@@ -90,7 +90,7 @@
   },
   {
     "id": "rimba",
-    "title": "Program Koridor RIMBA",
+    "title": { "id": "Program Koridor RIMBA", "en": "RIMBA Corridor Program" },
     "subtitle": {
       "id": "WebGIS Pelestarian Lingkungan",
       "en": "Environmental Conservation WebGIS"
@@ -134,7 +134,7 @@
   },
   {
     "id": "signata",
-    "title": "SIGNATA",
+    "title": { "id": "SIGNATA (Sistem Informasi Penatagunaan Tanah)", "en": "SIGNATA (Land Use Information System)" },
     "subtitle": {
       "id": "Sistem Informasi Penatagunaan Tanah",
       "en": "Land Use Information System"

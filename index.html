@@ -410,11 +410,12 @@
             const desc        = getLang(p.description);
             const subtitle    = getLang(p.subtitle);
             const category    = getLang(p.category);
+            const title       = getLang(p.title);
             const screenshotTxt = `${p.images.length} ${t('projects.screenshots')}`;
 
             card.innerHTML = `
                 <div class="cover-wrapper">
-                    <img src="${p.cover}" alt="${p.title}" loading="lazy" onerror="this.style.display='none'">
+                    <img src="${p.cover}" alt="${title}" loading="lazy" onerror="this.style.display='none'">
                     <div class="cover-overlay"></div>
                     <div class="cover-badge">
                         <span class="text-xs font-mono text-teal-300 bg-slate-950/70 border border-teal-500/30 px-2.5 py-1 rounded-full backdrop-blur-sm">${category}</span>
@@ -428,7 +429,7 @@
                             ${p.github ? `<a href="${p.github}" target="_blank" onclick="event.stopPropagation()" class="hover:text-teal-400 transition" title="GitHub"><i class="fab fa-github text-base"></i></a>` : ''}
                         </div>
                     </div>
-                    <h3 class="text-lg font-bold mb-1 group-hover:text-teal-400 transition">${p.title}</h3>
+                    <h3 class="text-lg font-bold mb-1 group-hover:text-teal-400 transition">${title}</h3>
                     <p class="text-slate-500 text-xs mb-3">${subtitle}</p>
                     <p class="text-slate-400 text-sm leading-relaxed line-clamp-3 mb-4">${desc}</p>
                     <div class="flex flex-wrap gap-1.5 pt-3 border-t border-slate-800/60">
@@ -458,11 +459,12 @@
         const subtitle   = getLang(p.subtitle);
         const category   = getLang(p.category);
         const highlights = getLang(p.highlights);
+        const title      = getLang(p.title);
 
         box.innerHTML = `
             <div class="relative">
                 <div class="relative h-56 overflow-hidden rounded-t-xl">
-                    <img src="${p.cover}" alt="${p.title}" class="w-full h-full object-cover" onerror="this.parentElement.style.display='none'">
+                    <img src="${p.cover}" alt="${title}" class="w-full h-full object-cover" onerror="this.parentElement.style.display='none'">
                     <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-slate-950"></div>
                     <button onclick="closeModal()" class="absolute top-3 right-3 text-white/70 hover:text-white bg-black/40 hover:bg-black/60 rounded-full w-9 h-9 flex items-center justify-center transition text-lg backdrop-blur-sm">&times;</button>
                 </div>
@@ -471,7 +473,7 @@
                         <span class="text-xs font-mono text-teal-300 bg-teal-500/10 border border-teal-500/20 px-2.5 py-0.5 rounded-full">${category}</span>
                         <span class="text-xs text-slate-500 font-mono">${p.year}</span>
                     </div>
-                    <h2 class="text-2xl md:text-3xl font-bold mb-1">${p.title}</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold mb-1">${title}</h2>
                     <p class="text-teal-400/80 text-sm mb-5">${subtitle}</p>
                     <p class="text-slate-400 text-sm leading-relaxed mb-6">${desc}</p>
 
