@@ -10,10 +10,9 @@
       "id": "Sistem Pajak Pemerintah",
       "en": "Government Tax System"
     },
-    "year": "2017 – 2020",
     "description": {
       "id": "Aplikasi BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan) adalah sistem pajak daerah yang mengelola proses perolehan hak atas tanah dan bangunan secara digital. Aplikasi ini terpasang di beberapa kota di Indonesia dan digunakan oleh Badan Pendapatan Daerah (BAPENDA) untuk memproses, memverifikasi, dan mengelola data wajib pajak secara terpusat.",
-      "en": "BPHTB (Land and Building Acquisition Duty) is a regional tax system that digitally manages land and building acquisition rights. Deployed across multiple cities in Indonesia and used by Regional Revenue Agencies (BAPENDA) to centrally process, verify, and manage taxpayer data."
+      "en": "BPHTB (Land and Building Acquisition Duty) is a regional tax system that digitally manages land and building acquisition rights. Deployed across multiple cities in Indonesia and used by BAPENDA (Regional Revenue Agency) to centrally process, verify, and manage taxpayer data."
     },
     "highlights": {
       "id": [
@@ -54,24 +53,23 @@
       "id": "WebGIS & Pemetaan",
       "en": "WebGIS & Mapping"
     },
-    "year": "2020 – 2022",
     "description": {
       "id": "SIG-PBB adalah aplikasi peta interaktif berbasis web yang menampilkan data spasial dan informasi detail setiap wajib pajak PBB (Pajak Bumi dan Bangunan) yang terdaftar di BAPENDA. Sistem ini memungkinkan petugas pajak untuk melihat, memvalidasi, dan menganalisis data peta objek pajak secara visual dan akurat.",
-      "en": "SIG-PBB is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA. The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
+      "en": "SIG-PBB is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA (Regional Revenue Agency / Badan Pendapatan Daerah). The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
     },
     "highlights": {
       "id": [
         "Visualisasi peta interaktif data wajib pajak PBB",
         "Tampilan detail per objek pajak beserta atribut spasial",
         "Integrasi data peta dengan database BAPENDA",
-        "Fitur pencarian dan filter berdasarkan NIK/SPPT",
+        "Fitur pencarian dan filter berdasarkan nama /alamat/NOP",
         "Antarmuka modern dan responsif berbasis Next.js"
       ],
       "en": [
         "Interactive map visualization of PBB taxpayer data",
         "Detailed view per tax object with spatial attributes",
-        "Map data integration with BAPENDA database",
-        "Search and filter feature based on NIK/SPPT",
+        "Map data integration with BAPENDA (Regional Revenue Agency) database",
+        "Search and filter feature based on name/address/object number",
         "Modern and responsive interface built with Next.js"
       ]
     },
@@ -99,7 +97,6 @@
       "id": "WebGIS Lingkungan",
       "en": "Environmental WebGIS"
     },
-    "year": "2022 – 2023",
     "description": {
       "id": "Program Koridor Ekosistem RIMBA (Riau, Jambi, Sumatera Barat) adalah inisiatif pelestarian lingkungan seluas 3,8 juta hektar yang bertujuan menghubungkan kawasan hutan dan taman nasional yang terpisah di Sumatera. Sistem WebGIS ini menampilkan berbagai layer peta kawasan lindung, habitat satwa liar, dan area konservasi di wilayah tersebut.",
       "en": "The RIMBA Ecosystem Corridor Program (Riau, Jambi, West Sumatra) is a 3.8-million-hectare environmental conservation initiative aimed at connecting fragmented forests and national parks in Sumatra. This WebGIS system displays multiple map layers of protected areas, wildlife habitats, and conservation zones across the region."
@@ -134,7 +131,7 @@
   },
   {
     "id": "signata",
-    "title": { "id": "SIGNATA (Sistem Informasi Penatagunaan Tanah)", "en": "SIGNATA (Land Use Information System)" },
+    "title": { "id": "SIGNATA (Sistem Informasi Geografis Penatagunaan Tanah)", "en": "SIGNATA (Land Use Information System)" },
     "subtitle": {
       "id": "Sistem Informasi Penatagunaan Tanah",
       "en": "Land Use Information System"
@@ -143,7 +140,6 @@
       "id": "Manajemen Pertanahan",
       "en": "Land Management"
     },
-    "year": "2023 – Sekarang",
     "description": {
       "id": "SIGNATA (Sistem Informasi Penatagunaan Tanah) adalah aplikasi resmi Direktorat Penatagunaan Tanah BPN (Badan Pertanahan Nasional) yang digunakan untuk pengelolaan, analisis, dan publikasi data spasial terkait penatagunaan tanah di seluruh Indonesia. Sistem ini mendukung pengambilan kebijakan pertanahan nasional berbasis data peta yang akurat.",
       "en": "SIGNATA (Land Use Information System) is an official application of the Land Use Directorate of the National Land Agency (BPN), used to manage, analyze, and publish spatial data related to land use across Indonesia. The system supports national land policy decisions based on accurate map data."

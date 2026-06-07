@@ -35,14 +35,6 @@
       "value": "linkedin.com/in/sf14",
       "href": "https://linkedin.com/in/sf14",
       "target": "_blank"
-    },
-    {
-      "id": "github",
-      "label": "GitHub",
-      "icon": "fab fa-github",
-      "value": "github.com/username",
-      "href": "https://github.com/username",
-      "target": "_blank"
     }
   ]
 }
