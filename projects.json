@@ -1,0 +1,175 @@
+[
+  {
+    "id": "bphtb",
+    "title": "Aplikasi BPHTB",
+    "subtitle": {
+      "id": "Sistem Pajak Daerah",
+      "en": "Regional Tax System"
+    },
+    "category": {
+      "id": "Sistem Pajak Pemerintah",
+      "en": "Government Tax System"
+    },
+    "year": "2017 – 2020",
+    "description": {
+      "id": "Aplikasi BPHTB (Bea Perolehan Hak atas Tanah dan Bangunan) adalah sistem pajak daerah yang mengelola proses perolehan hak atas tanah dan bangunan secara digital. Aplikasi ini terpasang di beberapa kota di Indonesia dan digunakan oleh Badan Pendapatan Daerah (BAPENDA) untuk memproses, memverifikasi, dan mengelola data wajib pajak secara terpusat.",
+      "en": "BPHTB (Land and Building Acquisition Duty) is a regional tax system that digitally manages land and building acquisition rights. Deployed across multiple cities in Indonesia and used by Regional Revenue Agencies (BAPENDA) to centrally process, verify, and manage taxpayer data."
+    },
+    "highlights": {
+      "id": [
+        "Manajemen data wajib pajak BPHTB secara terpusat",
+        "Kalkulasi otomatis nilai pajak berdasarkan regulasi daerah",
+        "Laporan dan rekap pajak per periode",
+        "Terintegrasi di beberapa kota di Indonesia",
+        "Sistem autentikasi dan manajemen pengguna multi-level"
+      ],
+      "en": [
+        "Centralized BPHTB taxpayer data management",
+        "Automatic tax value calculation based on regional regulations",
+        "Tax reports and recaps per period",
+        "Deployed across multiple cities in Indonesia",
+        "Multi-level authentication and user management system"
+      ]
+    },
+    "tech": ["PHP", "CodeIgniter", "MySQL", "Ubuntu Server", "Bootstrap"],
+    "cover": "bphtb/1.png",
+    "images": [
+      "bphtb/1.png",
+      "bphtb/2.png",
+      "bphtb/3.png",
+      "bphtb/4.png",
+      "bphtb/5.png"
+    ],
+    "url": null,
+    "github": null
+  },
+  {
+    "id": "smartmap",
+    "title": "SMART MAP",
+    "subtitle": {
+      "id": "Sistem Informasi Peta PBB",
+      "en": "Property Tax Mapping System"
+    },
+    "category": {
+      "id": "WebGIS & Pemetaan",
+      "en": "WebGIS & Mapping"
+    },
+    "year": "2020 – 2022",
+    "description": {
+      "id": "SMART MAP adalah aplikasi peta interaktif berbasis web yang menampilkan data spasial dan informasi detail setiap wajib pajak PBB (Pajak Bumi dan Bangunan) yang terdaftar di BAPENDA. Sistem ini memungkinkan petugas pajak untuk melihat, memvalidasi, dan menganalisis data peta objek pajak secara visual dan akurat.",
+      "en": "SMART MAP is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA. The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
+    },
+    "highlights": {
+      "id": [
+        "Visualisasi peta interaktif data wajib pajak PBB",
+        "Tampilan detail per objek pajak beserta atribut spasial",
+        "Integrasi data peta dengan database BAPENDA",
+        "Fitur pencarian dan filter berdasarkan NIK/SPPT",
+        "Antarmuka modern dan responsif berbasis Next.js"
+      ],
+      "en": [
+        "Interactive map visualization of PBB taxpayer data",
+        "Detailed view per tax object with spatial attributes",
+        "Map data integration with BAPENDA database",
+        "Search and filter feature based on NIK/SPPT",
+        "Modern and responsive interface built with Next.js"
+      ]
+    },
+    "tech": ["Next.js", "PostgreSQL", "PostGIS", "Leaflet.js", "TailwindCSS"],
+    "cover": "smartmap/1.png",
+    "images": [
+      "smartmap/1.png",
+      "smartmap/2.png",
+      "smartmap/3.png",
+      "smartmap/4.png",
+      "smartmap/5.png"
+    ],
+    "url": "https://sig-map.vercel.app/map",
+    "github": null,
+    "credentials": "user: visitor | pass: VisitorPass(0)"
+  },
+  {
+    "id": "rimba",
+    "title": "Program Koridor RIMBA",
+    "subtitle": {
+      "id": "WebGIS Pelestarian Lingkungan",
+      "en": "Environmental Conservation WebGIS"
+    },
+    "category": {
+      "id": "WebGIS Lingkungan",
+      "en": "Environmental WebGIS"
+    },
+    "year": "2022 – 2023",
+    "description": {
+      "id": "Program Koridor Ekosistem RIMBA (Riau, Jambi, Sumatera Barat) adalah inisiatif pelestarian lingkungan seluas 3,8 juta hektar yang bertujuan menghubungkan kawasan hutan dan taman nasional yang terpisah di Sumatera. Sistem WebGIS ini menampilkan berbagai layer peta kawasan lindung, habitat satwa liar, dan area konservasi di wilayah tersebut.",
+      "en": "The RIMBA Ecosystem Corridor Program (Riau, Jambi, West Sumatra) is a 3.8-million-hectare environmental conservation initiative aimed at connecting fragmented forests and national parks in Sumatra. This WebGIS system displays multiple map layers of protected areas, wildlife habitats, and conservation zones across the region."
+    },
+    "highlights": {
+      "id": [
+        "Peta multi-layer kawasan konservasi 3,8 juta hektar",
+        "Visualisasi koridor ekosistem Riau, Jambi, dan Sumbar",
+        "Data habitat satwa liar yang terancam punah",
+        "Backend API berbasis AdonisJS yang skalabel",
+        "Database geospasial dengan PostgreSQL + PostGIS"
+      ],
+      "en": [
+        "Multi-layer map of 3.8 million hectare conservation area",
+        "Ecosystem corridor visualization across Riau, Jambi & West Sumatra",
+        "Endangered wildlife habitat data layers",
+        "Scalable AdonisJS-based backend API",
+        "Geospatial database powered by PostgreSQL + PostGIS"
+      ]
+    },
+    "tech": ["Next.js", "AdonisJS", "PostgreSQL", "PostGIS", "Leaflet.js", "GeoServer"],
+    "cover": "rimba/1.png",
+    "images": [
+      "rimba/1.png",
+      "rimba/2.png",
+      "rimba/3.png",
+      "rimba/4.png",
+      "rimba/5.png"
+    ],
+    "url": "https://rimba.webgis.app/rimba/gis",
+    "github": null
+  },
+  {
+    "id": "signata",
+    "title": "SIGNATA",
+    "subtitle": {
+      "id": "Sistem Informasi Penatagunaan Tanah",
+      "en": "Land Use Information System"
+    },
+    "category": {
+      "id": "Manajemen Pertanahan",
+      "en": "Land Management"
+    },
+    "year": "2023 – Sekarang",
+    "description": {
+      "id": "SIGNATA (Sistem Informasi Penatagunaan Tanah) adalah aplikasi resmi Direktorat Penatagunaan Tanah BPN (Badan Pertanahan Nasional) yang digunakan untuk pengelolaan, analisis, dan publikasi data spasial terkait penatagunaan tanah di seluruh Indonesia. Sistem ini mendukung pengambilan kebijakan pertanahan nasional berbasis data peta yang akurat.",
+      "en": "SIGNATA (Land Use Information System) is an official application of the Land Use Directorate of the National Land Agency (BPN), used to manage, analyze, and publish spatial data related to land use across Indonesia. The system supports national land policy decisions based on accurate map data."
+    },
+    "highlights": {
+      "id": [
+        "Pengelolaan data peta penatagunaan tanah nasional",
+        "Integrasi GeoServer untuk publikasi layer peta WMS/WFS",
+        "Manajemen data spasial berbasis PostgreSQL + PostGIS",
+        "Antarmuka admin untuk pengelolaan layer dan atribut",
+        "Digunakan oleh Direktorat Penatagunaan Tanah BPN"
+      ],
+      "en": [
+        "National land use map data management",
+        "GeoServer integration for WMS/WFS map layer publishing",
+        "Spatial data management with PostgreSQL + PostGIS",
+        "Admin interface for layer and attribute management",
+        "Used by the Land Use Directorate of BPN"
+      ]
+    },
+    "tech": ["PHP", "CodeIgniter 3", "PostgreSQL", "PostGIS", "GeoServer", "OpenLayers"],
+    "cover": "signata/1.png",
+    "images": [
+      "signata/1.png"
+    ],
+    "url": "https://signata.atrbpn.go.id/",
+    "github": null
+  }
+]

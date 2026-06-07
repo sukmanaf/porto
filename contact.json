@@ -1,0 +1,48 @@
+{
+  "tagline": {
+    "id": "Apa Selanjutnya?",
+    "en": "What's Next?"
+  },
+  "heading": {
+    "id": "Mari Bekerja Sama",
+    "en": "Let's Work Together"
+  },
+  "description": {
+    "id": "Saya saat ini terbuka untuk peluang kerja Remote (WFH) atau Hybrid. Jika Anda memiliki proyek menarik atau posisi yang sesuai, jangan ragu untuk menghubungi saya.",
+    "en": "I am currently open to Remote (WFH) or Hybrid job opportunities. If you have an interesting project or a matching position, feel free to get in touch."
+  },
+  "links": [
+    {
+      "id": "email",
+      "label": "Email",
+      "icon": "fas fa-envelope",
+      "value": "emailkamu@gmail.com",
+      "href": "mailto:emailkamu@gmail.com",
+      "target": "_self"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "icon": "fab fa-whatsapp",
+      "value": "+62 812-XXXX-XXXX",
+      "href": "https://wa.me/628120000000",
+      "target": "_blank"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "value": "linkedin.com/in/username",
+      "href": "https://linkedin.com/in/username",
+      "target": "_blank"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "icon": "fab fa-github",
+      "value": "github.com/username",
+      "href": "https://github.com/username",
+      "target": "_blank"
+    }
+  ]
+}
