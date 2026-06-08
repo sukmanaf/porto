@@ -30,7 +30,7 @@
         "Multi-level authentication and user management system"
       ]
     },
-    "tech": ["PHP", "CodeIgniter", "MySQL", "Ubuntu Server", "Bootstrap"],
+    "tech": ["PHP", "CodeIgniter", "MySQL", "Bootstrap"],
     "cover": "bphtb/1.png",
     "images": [
       "bphtb/1.png",
@@ -55,7 +55,7 @@
     },
     "description": {
       "id": "SIG-PBB adalah aplikasi peta interaktif berbasis web yang menampilkan data spasial dan informasi detail setiap wajib pajak PBB (Pajak Bumi dan Bangunan) yang terdaftar di BAPENDA. Sistem ini memungkinkan petugas pajak untuk melihat, memvalidasi, dan menganalisis data peta objek pajak secara visual dan akurat.",
-      "en": "SIG-PBB is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA (Regional Revenue Agency / Badan Pendapatan Daerah). The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
+      "en": "SIG-PBB is an interactive web-based mapping application that displays spatial data and detailed information for each Land and Building Tax (PBB) registered taxpayer in BAPENDA (Regional Revenue Agency). The system enables tax officers to visually view, validate, and analyze tax object map data accurately."
     },
     "highlights": {
       "id": [
@@ -117,7 +117,7 @@
         "Geospatial database powered by PostgreSQL + PostGIS"
       ]
     },
-    "tech": ["Next.js", "AdonisJS", "PostgreSQL", "PostGIS", "Leaflet.js", "GeoServer"],
+    "tech": ["Next.js", "AdonisJS", "PostgreSQL", "PostGIS",  "GeoServer","Leaflet.js"],
     "cover": "rimba/1.png",
     "images": [
       "rimba/1.png",
@@ -126,7 +126,7 @@
       "rimba/4.png",
       "rimba/5.png"
     ],
-    "url": "https://rimba.webgis.app/rimba/gis",
+    "url": "http://100.105.181.100/rimba/gis",
     "github": null
   },
   {
@@ -160,7 +160,7 @@
         "Used by the Land Use Directorate of BPN"
       ]
     },
-    "tech": ["PHP", "CodeIgniter 3", "PostgreSQL", "PostGIS", "GeoServer", "OpenLayers"],
+    "tech": ["PHP", "CodeIgniter 3", "PostgreSQL", "PostGIS", "GeoServer"],
     "cover": "signata/1.png",
     "images": [
       "signata/1.png"
